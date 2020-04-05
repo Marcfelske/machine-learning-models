@@ -1,6 +1,6 @@
 {
     "inbound_links": [
-        "Slicing info: Qartile cut",
+        "Slicing info: Quartile cut",
         [
             "(-0.001, 2.0]",
             "1_no_inbound_links"
