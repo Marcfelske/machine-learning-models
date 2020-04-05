@@ -1,0 +1,1315 @@
+{
+    "inbound_links": [
+        "Slicing info: Qartile cut",
+        [
+            "(-0.001, 2.0]",
+            "1_no_inbound_links"
+        ],
+        [
+            "(2.0, 3.0]",
+            "2_little_inbound_links"
+        ],
+        [
+            "(3.0, 7.0]",
+            "3_medium_inbound_links"
+        ],
+        [
+            "(7.0, 35872.0]",
+            "4_high_inbound_links"
+        ]
+    ],
+    "global_pagerank": [
+        "Slicing info: Self defined thresholds",
+        [
+            "(10047.999, 2220568.0]",
+            "1_very_good_global_pagerank"
+        ],
+        [
+            "(2220568.0, 4461287.0]",
+            "2_good_global_pagerank"
+        ],
+        [
+            "(4461287.0, 8317489.0]",
+            "3_bad_global_pagerank"
+        ],
+        [
+            "(8317489.0, 19544569.0]",
+            "4_very_bad_global_pagerank"
+        ],
+        [
+            "(19544569.0, 20000000.0]",
+            "5_no_global_pagerank"
+        ]
+    ],
+    "tweet_count": [
+        "Slicing info: Cut off the \"0\" and split the rest in third cut",
+        [
+            "(-1e-09, 0.0]",
+            "1_none"
+        ],
+        [
+            "(0.0, 131.0]",
+            "2_low_num_tweets"
+        ],
+        [
+            "(131.0, 685.54]",
+            "2_medium_num_tweets"
+        ],
+        [
+            "(685.54, 475638.0]",
+            "4_high_num_tweets"
+        ]
+    ],
+    "tweets_per_day": [
+        "Slicing info: Cut off the \"0\" and split the rest in third cut",
+        [
+            "(-1e-09, 0.0]",
+            "1_none"
+        ],
+        [
+            "(0.0, 0.101]",
+            "2_low_num_tweets"
+        ],
+        [
+            "(0.101, 0.501]",
+            "2_medium_num_tweets"
+        ],
+        [
+            "(0.501, 317.458]",
+            "4_high_num_tweets"
+        ]
+    ],
+    "num_sum_investors": [
+        "Slicing info: Cut off the \"0\" and split the rest in third cut",
+        [
+            "(-1e-09, 0.0]",
+            "1_no_investors"
+        ],
+        [
+            "(0.0, 2.0]",
+            "2_low_num_investors"
+        ],
+        [
+            "(2.0, 4.0]",
+            "3_medium_num_investors"
+        ],
+        [
+            "(4.0, 20.0]",
+            "4_high_num_investors"
+        ]
+    ],
+    "num_sum_follow_on_investors": [
+        "Slicing info: Cut off the \"0\" and split the rest in third cut",
+        [
+            "(-1e-09, 0.0]",
+            "1_no_foll_investors"
+        ],
+        [
+            "(0.0, 1.0]",
+            "2_low_num_foll_investors"
+        ],
+        [
+            "(1.0, 2.0]",
+            "3_medium_num_foll_investors"
+        ],
+        [
+            "(2.0, 12.0]",
+            "4_high_num_foll_investors"
+        ]
+    ],
+    "new_to_followon_investor_ratio": [
+        "Slicing info: Cut off the \"0\" and split the rest in third cut",
+        [
+            "(-2.0, -0.0001]",
+            "X1_NA"
+        ],
+        [
+            "(-0.0001, 0.0]",
+            "X2_No_investors"
+        ],
+        [
+            "(0.0, 2.0]",
+            "1_no_follow_on"
+        ],
+        [
+            "(2.0, 3.75]",
+            "2_low_follow_on"
+        ],
+        [
+            "(3.75, 5.0]",
+            "3_medium_follow_on"
+        ],
+        [
+            "(5.0, 20.0]",
+            "4_high_follow_on"
+        ]
+    ],
+    "num_rounds": [
+        "Slicing info: Cut off the \"0\" and split the rest in third cut",
+        [
+            "(-1e-09, 0.0]",
+            "1_no_foll_investors"
+        ],
+        [
+            "(0.0, 2.0]",
+            "2_low_num_foll_investors"
+        ],
+        [
+            "(2.0, 3.0]",
+            "3_medium_num_foll_investors"
+        ],
+        [
+            "(3.0, 13.0]",
+            "4_high_num_foll_investors"
+        ]
+    ],
+    "num_unique_rounds": [
+        "Slicing info: Cut off the \"0\" and split the rest in third cut",
+        [
+            "(-1e-09, 0.0]",
+            "1_no_foll_investors"
+        ],
+        [
+            "(0.0, 1.0]",
+            "2_low_num_foll_investors"
+        ],
+        [
+            "(1.0, 2.0]",
+            "3_medium_num_foll_investors"
+        ],
+        [
+            "(2.0, 7.0]",
+            "4_high_num_foll_investors"
+        ]
+    ],
+    "friends_degree_mean": [
+        "Slicing info: Cut off the \"0\" and split the rest in third cut",
+        [
+            "(-1e-09, 0.0]",
+            "1_very_low"
+        ],
+        [
+            "(0.0, 106.929]",
+            "2_low"
+        ],
+        [
+            "(106.929, 569.457]",
+            "3_high"
+        ],
+        [
+            "(569.457, 17143.286]",
+            "4_very_high"
+        ]
+    ],
+    "friends_degree_delta_survey": [
+        "Slicing info: Half split and split halves again",
+        [
+            "(-4760.0, -7.0]",
+            "1_high_loss"
+        ],
+        [
+            "(-7.0, -1e-09]",
+            "2_small_loss"
+        ],
+        [
+            "(-1e-09, 0.0]",
+            "3_true_zero"
+        ],
+        [
+            "(0.0, 3.0]",
+            "4_small_gain"
+        ],
+        [
+            "(3.0, 3454.0]",
+            "5_high_gain"
+        ]
+    ],
+    "friends_degree_rel_difference": [
+        "Slicing info: Half split and split halves again",
+        [
+            "(-10.6, -0.00972]",
+            "1_high_loss"
+        ],
+        [
+            "(-0.00972, -1e-09]",
+            "2_small_loss"
+        ],
+        [
+            "(-1e-09, 0.0]",
+            "3_true_zero"
+        ],
+        [
+            "(0.0, 0.0165]",
+            "4_small_gain"
+        ],
+        [
+            "(0.0165, 15.0]",
+            "5_high_gain"
+        ]
+    ],
+    "followers_degree_mean": [
+        "Slicing info: Cut off the \"0\" and split the rest in third cut",
+        [
+            "(-1e-09, 0.0]",
+            "1_very_low"
+        ],
+        [
+            "(0.0, 98.513]",
+            "2_low"
+        ],
+        [
+            "(98.513, 518.825]",
+            "3_high"
+        ],
+        [
+            "(518.825, 250374.214]",
+            "4_very_high"
+        ]
+    ],
+    "followers_degree_delta_survey": [
+        "Slicing info: Half split and split halves again",
+        [
+            "(-9625.0, -9.0]",
+            "1_high_loss"
+        ],
+        [
+            "(-9.0, -1e-09]",
+            "2_small_loss"
+        ],
+        [
+            "(-1e-09, 0.0]",
+            "3_true_zero"
+        ],
+        [
+            "(0.0, 16.0]",
+            "4_small_gain"
+        ],
+        [
+            "(16.0, 7163.0]",
+            "5_high_gain"
+        ]
+    ],
+    "followers_degree_rel_difference": [
+        "Slicing info: Cut off the \"0\" and split the rest in third cut",
+        [
+            "(-12.673, -0.0261]",
+            "1_high_loss"
+        ],
+        [
+            "(-0.0261, -1e-09]",
+            "2_small_loss"
+        ],
+        [
+            "(-1e-09, 0.0]",
+            "3_true_zero"
+        ],
+        [
+            "(0.0, 0.0993]",
+            "4_small_gain"
+        ],
+        [
+            "(0.0993, 5.619]",
+            "5_high_gain"
+        ]
+    ],
+    "unweighted_bi_direct_degree_mean": [
+        "Slicing info: Half split and split halves again",
+        [
+            "(-1e-09, 0.0]",
+            "1_very_low"
+        ],
+        [
+            "(0.0, 24.524]",
+            "2_low"
+        ],
+        [
+            "(24.524, 133.044]",
+            "3_high"
+        ],
+        [
+            "(133.044, 15857.857]",
+            "4_very_high"
+        ]
+    ],
+    "unweighted_bi_direct_degree_delta_survey": [
+        "Slicing info: Half split and split halves again",
+        [
+            "(-2770.0, -4.0]",
+            "1_high_loss"
+        ],
+        [
+            "(-4.0, -1e-09]",
+            "2_small_loss"
+        ],
+        [
+            "(-1e-09, 0.0]",
+            "3_true_zero"
+        ],
+        [
+            "(0.0, 1.0]",
+            "4_small_gain"
+        ],
+        [
+            "(1.0, 2380.0]",
+            "5_high_gain"
+        ]
+    ],
+    "unweighted_bi_direct_degree_rel_difference": [
+        "Slicing info: Half split and split halves again",
+        [
+            "(-11.286, -0.0334]",
+            "1_high_loss"
+        ],
+        [
+            "(-0.0334, -1e-09]",
+            "2_small_loss"
+        ],
+        [
+            "(-1e-09, 0.0]",
+            "3_true_zero"
+        ],
+        [
+            "(0.0, 0.0187]",
+            "4_small_gain"
+        ],
+        [
+            "(0.0187, 15.0]",
+            "5_high_gain"
+        ]
+    ],
+    "followers_div_by_friends_degree_ratio": [
+        "Slicing info: Cut off the \"0\" and split the rest in third cut",
+        [
+            "(-2.0, -1e-09]",
+            "X1_NA"
+        ],
+        [
+            "(-1e-09, 0.0]",
+            "X2_No_friends"
+        ],
+        [
+            "(0.0, 0.232]",
+            "1_low_follow_on"
+        ],
+        [
+            "(0.232, 1.059]",
+            "2_medium_follow_on"
+        ],
+        [
+            "(1.059, 1899.786]",
+            "3_high_follow_on"
+        ]
+    ],
+    "c_and_i_betweenness_centrality": [
+        "Slicing info: Cut off the \"0\" and split the rest in third cut",
+        [
+            "(-1e-09, 0.0]",
+            "1_very_low"
+        ],
+        [
+            "(0.0, 0.000778]",
+            "2_low"
+        ],
+        [
+            "(0.000778, 0.00266]",
+            "3_high"
+        ],
+        [
+            "(0.00266, 1.022]",
+            "4_very_high"
+        ]
+    ],
+    "c_and_i_eigenvector_centrality": [
+        "Slicing info: Cut off the \"0\" and split the rest in third cut",
+        [
+            "(-1e-09, 0.0]",
+            "1_very_low"
+        ],
+        [
+            "(0.0, 0.00111]",
+            "2_low"
+        ],
+        [
+            "(0.00111, 0.00959]",
+            "3_high"
+        ],
+        [
+            "(0.00959, 1.11]",
+            "4_very_high"
+        ]
+    ],
+    "followers_max_10_matches": [
+        "Slicing info: Self defined thresholds",
+        [
+            "(-0.001, 0.0]",
+            "1_none"
+        ],
+        [
+            "(0.0, 1.0]",
+            "2_low"
+        ],
+        [
+            "(1.0, 2.0]",
+            "3_high"
+        ],
+        [
+            "(2.0, 10.0]",
+            "4_very_high"
+        ]
+    ],
+    "followers_max_100_matches": [
+        "Slicing info: Cut off the \"0\" and split the rest in third cut",
+        [
+            "(-1e-09, 0.0]",
+            "1_none"
+        ],
+        [
+            "(0.0, 1.0]",
+            "2_low"
+        ],
+        [
+            "(1.0, 2.0]",
+            "3_high"
+        ],
+        [
+            "(2.0, 17.0]",
+            "4_very_high"
+        ]
+    ],
+    "followers_max_1000_matches": [
+        "Slicing info: Cut off the \"0\" and split the rest in third cut",
+        [
+            "(-1e-09, 0.0]",
+            "1_none"
+        ],
+        [
+            "(0.0, 2.0]",
+            "2_low"
+        ],
+        [
+            "(2.0, 4.0]",
+            "3_high"
+        ],
+        [
+            "(4.0, 85.0]",
+            "4_very_high"
+        ]
+    ],
+    "followers_max_10000_matches": [
+        "Slicing info: Cut off the \"0\" and split the rest in third cut",
+        [
+            "(-1e-09, 0.0]",
+            "1_none"
+        ],
+        [
+            "(0.0, 2.0]",
+            "2_low"
+        ],
+        [
+            "(2.0, 4.0]",
+            "3_high"
+        ],
+        [
+            "(4.0, 86.0]",
+            "4_very_high"
+        ]
+    ],
+    "friends_max_10_matches": [
+        "Slicing info: Self defined thresholds",
+        [
+            "(-0.001, 0.0]",
+            "1_none"
+        ],
+        [
+            "(0.0, 1.0]",
+            "2_low"
+        ],
+        [
+            "(1.0, 2.0]",
+            "3_high"
+        ],
+        [
+            "(2.0, 10.0]",
+            "4_very_high"
+        ]
+    ],
+    "friends_max_100_matches": [
+        "Slicing info: Cut off the \"0\" and split the rest in third cut",
+        [
+            "(-1e-09, 0.0]",
+            "1_none"
+        ],
+        [
+            "(0.0, 1.0]",
+            "2_low"
+        ],
+        [
+            "(1.0, 2.0]",
+            "3_high"
+        ],
+        [
+            "(2.0, 12.0]",
+            "4_very_high"
+        ]
+    ],
+    "friends_max_1000_matches": [
+        "Slicing info: Cut off the \"0\" and split the rest in third cut",
+        [
+            "(-1e-09, 0.0]",
+            "1_none"
+        ],
+        [
+            "(0.0, 5.0]",
+            "2_low"
+        ],
+        [
+            "(5.0, 15.0]",
+            "3_high"
+        ],
+        [
+            "(15.0, 133.0]",
+            "4_very_high"
+        ]
+    ],
+    "friends_max_10000_matches": [
+        "Slicing info: Cut off the \"0\" and split the rest in third cut",
+        [
+            "(-1e-09, 0.0]",
+            "1_none"
+        ],
+        [
+            "(0.0, 32.0]",
+            "2_low"
+        ],
+        [
+            "(32.0, 117.0]",
+            "3_high"
+        ],
+        [
+            "(117.0, 2501.0]",
+            "4_very_high"
+        ]
+    ],
+    "bi_direct_max_10_matches": [
+        "Slicing info: Self defined thresholds",
+        [
+            "(-0.001, 0.0]",
+            "1_none"
+        ],
+        [
+            "(0.0, 1.0]",
+            "2_low"
+        ],
+        [
+            "(1.0, 2.0]",
+            "3_high"
+        ],
+        [
+            "(2.0, 10.0]",
+            "4_very_high"
+        ]
+    ],
+    "bi_direct_max_100_matches": [
+        "Slicing info: Cut off the \"0\" and split the rest in third cut",
+        [
+            "(-1e-09, 0.0]",
+            "1_none"
+        ],
+        [
+            "(0.0, 1.0]",
+            "2_low"
+        ],
+        [
+            "(1.0, 2.0]",
+            "3_high"
+        ],
+        [
+            "(2.0, 8.0]",
+            "4_very_high"
+        ]
+    ],
+    "bi_direct_max_1000_matches": [
+        "Slicing info: Cut off the \"0\" and split the rest in third cut",
+        [
+            "(-1e-09, 0.0]",
+            "1_none"
+        ],
+        [
+            "(0.0, 2.0]",
+            "2_low"
+        ],
+        [
+            "(2.0, 8.0]",
+            "3_high"
+        ],
+        [
+            "(8.0, 70.0]",
+            "4_very_high"
+        ]
+    ],
+    "bi_direct_max_10000_matches": [
+        "Slicing info: Cut off the \"0\" and split the rest in third cut",
+        [
+            "(-1e-09, 0.0]",
+            "1_none"
+        ],
+        [
+            "(0.0, 7.0]",
+            "2_low"
+        ],
+        [
+            "(7.0, 33.0]",
+            "3_high"
+        ],
+        [
+            "(33.0, 1770.0]",
+            "4_very_high"
+        ]
+    ],
+    "ego_followers_density": [
+        "Slicing info: Self defined thresholds",
+        [
+            "(-1e-09, 0.0]",
+            "1_none"
+        ],
+        [
+            "(0.0, 0.333]",
+            "2_low"
+        ],
+        [
+            "(0.333, 0.5]",
+            "3_high"
+        ],
+        [
+            "(0.5, 2.0]",
+            "4_very_high"
+        ]
+    ],
+    "ego_friends_density": [
+        "Slicing info: Self defined thresholds",
+        [
+            "(-1e-09, 0.0]",
+            "1_none"
+        ],
+        [
+            "(0.0, 0.00194]",
+            "2_low"
+        ],
+        [
+            "(0.00194, 0.0094]",
+            "3_high"
+        ],
+        [
+            "(0.0094, 1.5]",
+            "4_very_high"
+        ]
+    ],
+    "ego_bi_direct_density": [
+        "Slicing info: Self defined thresholds",
+        [
+            "(-1e-09, 0.0]",
+            "1_none"
+        ],
+        [
+            "(0.0, 0.00622]",
+            "2_low"
+        ],
+        [
+            "(0.00622, 0.0357]",
+            "3_high"
+        ],
+        [
+            "(0.0357, 1.5]",
+            "4_very_high"
+        ]
+    ],
+    "followers_match_count_mean": [
+        "Slicing info: Cut off the \"0\" and split the rest in third cut",
+        [
+            "(-1e-09, 0.0]",
+            "1_very_low"
+        ],
+        [
+            "(0.0, 82.964]",
+            "2_low"
+        ],
+        [
+            "(82.964, 420.543]",
+            "3_high"
+        ],
+        [
+            "(420.543, 158461.833]",
+            "4_very_high"
+        ]
+    ],
+    "followers_match_count_delta_survey": [
+        "Slicing info: Half split and split halves again",
+        [
+            "(-12770.0, -7.0]",
+            "1_high_loss"
+        ],
+        [
+            "(-7.0, -1e-09]",
+            "2_small_loss"
+        ],
+        [
+            "(-1e-09, 0.0]",
+            "3_true_zero"
+        ],
+        [
+            "(0.0, 13.0]",
+            "4_small_gain"
+        ],
+        [
+            "(13.0, 6602.0]",
+            "5_high_gain"
+        ]
+    ],
+    "followers_match_count_rel_difference": [
+        "Slicing info: Half split and split halves again",
+        [
+            "(-12.0, -0.0201]",
+            "1_high_loss"
+        ],
+        [
+            "(-0.0201, -1e-09]",
+            "2_small_loss"
+        ],
+        [
+            "(-1e-09, 0.0]",
+            "3_true_zero"
+        ],
+        [
+            "(0.0, 0.0937]",
+            "4_small_gain"
+        ],
+        [
+            "(0.0937, 5.484]",
+            "5_high_gain"
+        ]
+    ],
+    "followers_match_count_per_user": [
+        "Slicing info: Cut off the \"0\" and split the rest in third cut",
+        [
+            "(-1e-09, 0.0]",
+            "1_very_low"
+        ],
+        [
+            "(0.0, 0.84]",
+            "2_low"
+        ],
+        [
+            "(0.84, 0.943]",
+            "3_high"
+        ],
+        [
+            "(0.943, 8.422]",
+            "4_very_high"
+        ]
+    ],
+    "followers_match_w_count_mean": [
+        "Slicing info: Cut off the \"0\" and split the rest in third cut",
+        [
+            "(-1e-09, 0.0]",
+            "1_very_low"
+        ],
+        [
+            "(0.0, 694.492]",
+            "2_low"
+        ],
+        [
+            "(694.492, 4973.814]",
+            "3_high"
+        ],
+        [
+            "(4973.814, 555208.286]",
+            "4_very_high"
+        ]
+    ],
+    "followers_match_w_count_per_user_avg": [
+        "Slicing info: Cut off the \"0\" and split the rest in third cut",
+        [
+            "(-1e-09, 0.0]",
+            "1_very_low"
+        ],
+        [
+            "(0.0, 5.997]",
+            "2_low"
+        ],
+        [
+            "(5.997, 17.517]",
+            "3_high"
+        ],
+        [
+            "(17.517, 42.526]",
+            "4_very_high"
+        ]
+    ],
+    "followers_match_w_count_delta_survey": [
+        "Slicing info: Half split and split halves again",
+        [
+            "(-17272.0, -56.0]",
+            "1_high_loss"
+        ],
+        [
+            "(-56.0, -1e-09]",
+            "2_small_loss"
+        ],
+        [
+            "(-1e-09, 0.0]",
+            "3_true_zero"
+        ],
+        [
+            "(0.0, 161.0]",
+            "4_small_gain"
+        ],
+        [
+            "(161.0, 114669.0]",
+            "5_high_gain"
+        ]
+    ],
+    "followers_match_w_count_rel_difference": [
+        "Slicing info: Half split and split halves again",
+        [
+            "(-12.0, -0.0212]",
+            "1_high_loss"
+        ],
+        [
+            "(-0.0212, -1e-09]",
+            "2_small_loss"
+        ],
+        [
+            "(-1e-09, 0.0]",
+            "3_true_zero"
+        ],
+        [
+            "(0.0, 0.0965]",
+            "4_small_gain"
+        ],
+        [
+            "(0.0965, 5.035]",
+            "5_high_gain"
+        ]
+    ],
+    "friends_match_count_mean": [
+        "Slicing info: Cut off the \"0\" and split the rest in third cut",
+        [
+            "(-1e-09, 0.0]",
+            "1_very_low"
+        ],
+        [
+            "(0.0, 100.5]",
+            "2_low"
+        ],
+        [
+            "(100.5, 512.0]",
+            "3_high"
+        ],
+        [
+            "(512.0, 15714.071]",
+            "4_very_high"
+        ]
+    ],
+    "friends_match_count_delta_survey": [
+        "Slicing info: Half split and split halves again",
+        [
+            "(-1845.0, -4.0]",
+            "1_high_loss"
+        ],
+        [
+            "(-4.0, -1e-09]",
+            "2_small_loss"
+        ],
+        [
+            "(-1e-09, 0.0]",
+            "3_true_zero"
+        ],
+        [
+            "(0.0, 2.0]",
+            "4_small_gain"
+        ],
+        [
+            "(2.0, 3315.0]",
+            "5_high_gain"
+        ]
+    ],
+    "friends_match_count_rel_difference": [
+        "Slicing info: Half split and split halves again",
+        [
+            "(-5.453, -0.00575]",
+            "1_high_loss"
+        ],
+        [
+            "(-0.00575, -1e-09]",
+            "2_small_loss"
+        ],
+        [
+            "(-1e-09, 0.0]",
+            "3_true_zero"
+        ],
+        [
+            "(0.0, 0.011]",
+            "4_small_gain"
+        ],
+        [
+            "(0.011, 15.0]",
+            "5_high_gain"
+        ]
+    ],
+    "friends_match_count_per_user": [
+        "Slicing info: Cut off the \"0\" and split the rest in third cut",
+        [
+            "(-1e-09, 0.0]",
+            "1_very_low"
+        ],
+        [
+            "(0.0, 0.937]",
+            "2_low"
+        ],
+        [
+            "(0.937, 0.987]",
+            "3_high"
+        ],
+        [
+            "(0.987, 7.758]",
+            "4_very_high"
+        ]
+    ],
+    "friends_match_w_count_mean": [
+        "Slicing info: Cut off the \"0\" and split the rest in third cut",
+        [
+            "(-1e-09, 0.0]",
+            "1_very_low"
+        ],
+        [
+            "(0.0, 923.0]",
+            "2_low"
+        ],
+        [
+            "(923.0, 6168.071]",
+            "3_high"
+        ],
+        [
+            "(6168.071, 289710.462]",
+            "4_very_high"
+        ]
+    ],
+    "friends_match_w_count_per_user_avg": [
+        "Slicing info: Cut off the \"0\" and split the rest in third cut",
+        [
+            "(-1e-09, 0.0]",
+            "1_very_low"
+        ],
+        [
+            "(0.0, 7.026]",
+            "2_low"
+        ],
+        [
+            "(7.026, 20.534]",
+            "3_high"
+        ],
+        [
+            "(20.534, 47.943]",
+            "4_very_high"
+        ]
+    ],
+    "friends_match_w_count_delta_survey": [
+        "Slicing info: Half split and split halves again",
+        [
+            "(-36152.0, -32.0]",
+            "1_high_loss"
+        ],
+        [
+            "(-32.0, -1e-09]",
+            "2_small_loss"
+        ],
+        [
+            "(-1e-09, 0.0]",
+            "3_true_zero"
+        ],
+        [
+            "(0.0, 27.0]",
+            "4_small_gain"
+        ],
+        [
+            "(27.0, 64971.0]",
+            "5_high_gain"
+        ]
+    ],
+    "friends_match_w_count_rel_difference": [
+        "Slicing info: Half split and split halves again",
+        [
+            "(-4.857, -0.00394]",
+            "1_high_loss"
+        ],
+        [
+            "(-0.00394, -1e-09]",
+            "2_small_loss"
+        ],
+        [
+            "(-1e-09, 0.0]",
+            "3_true_zero"
+        ],
+        [
+            "(0.0, 0.0125]",
+            "4_small_gain"
+        ],
+        [
+            "(0.0125, 15.0]",
+            "5_high_gain"
+        ]
+    ],
+    "unweighted_bi_direct_match_count_mean": [
+        "Slicing info: Cut off the \"0\" and split the rest in third cut",
+        [
+            "(-1e-09, 0.0]",
+            "1_very_low"
+        ],
+        [
+            "(0.0, 21.073]",
+            "2_low"
+        ],
+        [
+            "(21.073, 120.457]",
+            "3_high"
+        ],
+        [
+            "(120.457, 15653.769]",
+            "4_very_high"
+        ]
+    ],
+    "unweighted_bi_direct_match_count_delta_survey": [
+        "Slicing info: Half split and split halves again",
+        [
+            "(-485.0, -3.0]",
+            "1_high_loss"
+        ],
+        [
+            "(-3.0, -1e-09]",
+            "2_small_loss"
+        ],
+        [
+            "(-1e-09, 0.0]",
+            "3_true_zero"
+        ],
+        [
+            "(0.0, 1.0]",
+            "4_small_gain"
+        ],
+        [
+            "(1.0, 2393.0]",
+            "5_high_gain"
+        ]
+    ],
+    "unweighted_bi_direct_match_count_rel_difference": [
+        "Slicing info: Half split and split halves again",
+        [
+            "(-8.0, -0.0263]",
+            "1_high_loss"
+        ],
+        [
+            "(-0.0263, -1e-09]",
+            "2_small_loss"
+        ],
+        [
+            "(-1e-09, 0.0]",
+            "3_true_zero"
+        ],
+        [
+            "(0.0, 0.015]",
+            "4_small_gain"
+        ],
+        [
+            "(0.015, 15.0]",
+            "5_high_gain"
+        ]
+    ],
+    "unweighted_bi_direct_match_count_per_user": [
+        "Slicing info: Cut off the \"0\" and split the rest in third cut",
+        [
+            "(-1e-09, 0.0]",
+            "1_very_low"
+        ],
+        [
+            "(0.0, 0.949]",
+            "2_low"
+        ],
+        [
+            "(0.949, 0.996]",
+            "3_high"
+        ],
+        [
+            "(0.996, 9.143]",
+            "4_very_high"
+        ]
+    ],
+    "unweighted_bi_direct_match_w_count_mean": [
+        "Slicing info: Cut off the \"0\" and split the rest in third cut",
+        [
+            "(-1e-09, 0.0]",
+            "1_very_low"
+        ],
+        [
+            "(0.0, 217.475]",
+            "2_low"
+        ],
+        [
+            "(217.475, 1646.136]",
+            "3_high"
+        ],
+        [
+            "(1646.136, 259929.538]",
+            "4_very_high"
+        ]
+    ],
+    "unweighted_bi_direct_match_w_per_user_count_avg": [
+        "Slicing info: Cut off the \"0\" and split the rest in third cut",
+        [
+            "(-1e-09, 0.0]",
+            "1_very_low"
+        ],
+        [
+            "(0.0, 7.434]",
+            "2_low"
+        ],
+        [
+            "(7.434, 20.519]",
+            "3_high"
+        ],
+        [
+            "(20.519, 50.479]",
+            "4_very_high"
+        ]
+    ],
+    "unweighted_bi_direct_match_w_count_delta_survey": [
+        "Slicing info: Half split and split halves again",
+        [
+            "(-6598.0, -36.0]",
+            "1_high_loss"
+        ],
+        [
+            "(-36.0, -1e-09]",
+            "2_small_loss"
+        ],
+        [
+            "(-1e-09, 0.0]",
+            "3_true_zero"
+        ],
+        [
+            "(0.0, 12.0]",
+            "4_small_gain"
+        ],
+        [
+            "(12.0, 48314.0]",
+            "5_high_gain"
+        ]
+    ],
+    "unweighted_bi_direct_match_w_count_rel_difference": [
+        "Slicing info: Half split and split halves again",
+        [
+            "(-8.0, -0.0234]",
+            "1_high_loss"
+        ],
+        [
+            "(-0.0234, -1e-09]",
+            "2_small_loss"
+        ],
+        [
+            "(-1e-09, 0.0]",
+            "3_true_zero"
+        ],
+        [
+            "(0.0, 0.0236]",
+            "4_small_gain"
+        ],
+        [
+            "(0.0236, 15.0]",
+            "5_high_gain"
+        ]
+    ],
+    "dt_avg": [
+        "Slicing info: Self defined thresholds",
+        [
+            "(-11000000.0, -3.0]",
+            "X1_NA"
+        ],
+        [
+            "(-3.0, 0.0]",
+            "1_pre_inc_dt_avg"
+        ],
+        [
+            "(0.0, 205.0]",
+            "2_short_dt_avg"
+        ],
+        [
+            "(205.0, 315.0]",
+            "3_medium_dt_avg"
+        ],
+        [
+            "(315.0, 10000000.0]",
+            "4_long_dt_avg"
+        ]
+    ],
+    "num_sum_raised_to_date": [
+        "Slicing info: Self defined thresholds",
+        [
+            "(-0.001, 5.0]",
+            "1_no_funding"
+        ],
+        [
+            "(5.0, 5.699]",
+            "2_five_figure"
+        ],
+        [
+            "(5.699, 6.0]",
+            "3_half_mil"
+        ],
+        [
+            "(6.0, 6.699]",
+            "4_six_figure"
+        ],
+        [
+            "(6.699, 7.0]",
+            "5_five_mil"
+        ],
+        [
+            "(7.0, 8.0]",
+            "6_seven_figure"
+        ],
+        [
+            "(8.0, 10.0]",
+            "7_eight_figure_plus"
+        ]
+    ],
+    "max_post_money_valuation": [
+        "Slicing info: Self defined thresholds",
+        [
+            "(-0.001, 5.0]",
+            "1_no_valuation"
+        ],
+        [
+            "(5.0, 5.699]",
+            "2_five_figure"
+        ],
+        [
+            "(5.699, 6.0]",
+            "3_half_mil"
+        ],
+        [
+            "(6.0, 6.699]",
+            "4_six_figure"
+        ],
+        [
+            "(6.699, 7.0]",
+            "5_five_mil"
+        ],
+        [
+            "(7.0, 8.0]",
+            "6_seven_figure"
+        ],
+        [
+            "(8.0, 10.0]",
+            "7_eight_figure_plus"
+        ]
+    ]
+}
